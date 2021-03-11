@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/router/note/svg
+# /router/note/svg
 /router/export/report.pdf
 # testing
 /coverage
