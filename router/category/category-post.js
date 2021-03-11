@@ -16,6 +16,7 @@ router.post('/category', aunteficate(), async (req, res, next) => {
     const category = await Category.create(newCategory);
     res.json(category);
   } catch (err) {
+    console.log('err', err);
     return res.status(403).json({ message: 'something went wrong' });
   }
 });
